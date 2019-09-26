@@ -103,6 +103,11 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-center pt-3">
+        Footer © 2019
+      </div>
+    </div>
   </div>
 </template>
 
