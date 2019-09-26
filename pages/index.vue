@@ -1,68 +1,116 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        kaan-app
-      </h1>
-      <h2 class="subtitle">
-        My prime Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 pb-2 text-right">
+              Home | About | Login | Sign Up
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+    <div class="row height-600">
+      <div class="col-md-2 bg-light">
+        Lindex
+        <br />
+        <br />Gabriella
+        <br />Galatea
+        <br />Galatia
+        <br />Galaxy
+        <br />
+      </div>
+      <div class="col-md-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" class="w-100" />
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-md-8">
+              <h3>Gabriella Plants</h3>
+            </div>
+            <div class="col-md-4 text-right">
+              <h3>93/100</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-md-12 text-right">Sort by: Most Reviews</div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="container px-0 pb-5">
+                <div class="row">
+                  <div class="col-md-4 pt-4">
+                    <div class="bg-light p-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi?
+                      <br />
+                      <br />Andre
+                      <br />(212) 98% Positive
+                      <br />
+                      <br />[Upvotes] 124 [Downvotes] 8
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4">
+                    <div class="bg-light p-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi?
+                      <br />
+                      <br />Andre
+                      <br />(212) 98% Positive
+                      <br />
+                      <br />[Upvotes] 124 [Downvotes] 8
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4">
+                    <div class="bg-light p-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi?
+                      <br />
+                      <br />Andre
+                      <br />(212) 98% Positive
+                      <br />
+                      <br />[Upvotes] 124 [Downvotes] 8
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4">
+                    <div class="bg-light p-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi?
+                      <br />
+                      <br />Andre
+                      <br />(212) 98% Positive
+                      <br />
+                      <br />[Upvotes] 124 [Downvotes] 8
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4">
+                    <div class="bg-light p-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi?
+                      <br />
+                      <br />Andre
+                      <br />(212) 98% Positive
+                      <br />
+                      <br />[Upvotes] 124 [Downvotes] 8
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
-}
+  components: {}
+};
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
