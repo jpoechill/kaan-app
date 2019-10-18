@@ -2,10 +2,10 @@
   <div class="container my-4">
     <div class="row height-600">
       <div class="col-md-2 bg-light">
-        Gabriella<br />
-        Galatea<br />
-        Galatia<br />
-        Galaxy<br />
+        <nuxt-link to="/">Gabriella</nuxt-link> <span class="float-right">99.99</span><br />
+        <nuxt-link to="/">Galatea</nuxt-link> <span class="float-right">99.99</span><br />
+        <nuxt-link to="/">Galatia</nuxt-link> <span class="float-right">99.99</span><br />
+        <nuxt-link to="/">Galaxy</nuxt-link> <span class="float-right">99.99</span><br />
         Add New Item
       </div>
 
