@@ -24,7 +24,7 @@
 
     <div class="row bg-grey mt-5 text-dark">
       <div class="col-md-12 text-center py-5">
-        Justifact. © 2019 <br>
+        Justifact © 2019 <br>
         <!-- Made in the East Bay Area.  -->
       </div>
     </div>
